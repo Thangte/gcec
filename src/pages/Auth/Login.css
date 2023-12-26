@@ -1,0 +1,42 @@
+  
+  .hero-container {
+    background: url("https://i.pinimg.com/564x/e8/bc/92/e8bc92610f5fc0bba9f9b4ef99c1c251.jpg") center center/cover no-repeat;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .hero-container .title {
+    color: white;
+    text-align: center;
+  }
+
+  .hero-container .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chooseAuth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 960px) {
+
+  }
+  
+  @media screen and (max-width: 768px) {
+
+  }

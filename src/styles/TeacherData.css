@@ -1,0 +1,80 @@
+.ImageData {
+    display: flex;
+    flex-direction: row;
+}
+
+.TeacherImage img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: fill;
+
+}
+
+.DataColumn {
+    display: flex;
+    flex-direction: column;
+    width: 740px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.ImageBorder {
+    background-color: rgb(83, 87, 87);
+    width: 210px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+       
+}
+
+@media screen and (max-width: 960px) {
+    .ImageData {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .ImageData .TeacherImage {
+        width: 280px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+    .DataColumn {
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        margin-left: 10px;
+    
+    }
+
+}
+  
+@media screen and (max-width: 768px) {
+    .ImageData {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .ImageData .TeacherImage {
+        width: 280px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    
+    .DataColumn {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        margin-left: 10px;
+    
+    }
+
+}
+
+
+

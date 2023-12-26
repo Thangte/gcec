@@ -1,0 +1,45 @@
+.cardTable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.myCard {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+.myCard .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(84, 90, 90);
+    padding-top: 2px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .cardTable {
+        margin-top: 1px;
+    }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    
+    .cardTable {
+        margin-top: 1px;
+    }
+ 
+  }

@@ -1,0 +1,45 @@
+.teacherContainer {
+    background-color: rgb(122, 122, 122);
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 5px;
+}
+
+.teacherImage img {
+    height: 300px;
+    width: 240px;
+    border: none;
+    border-radius: 5px;
+}
+
+.teacherData {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 960px) {
+
+
+}
+  
+  @media screen and (max-width: 768px) {
+    .teacherContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+    }
+
+    .teacherData {
+        width: 320px;
+    }
+    
+
+ 
+  }
